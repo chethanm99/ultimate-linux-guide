@@ -24,4 +24,16 @@
 19. **`echo 'Hello' > file.txt`** – Writes text to a file, overwriting existing content.
 20. **`echo 'Hello' >> file.txt`** – Appends text to a file without overwriting.
 
+Important interview Questions? 
 
+1. What is the difference between "useradd" and "adduser" in Linux?
+
+Ans: Both the "useradd" and "adduser" commands do the same work, but the "adduser" command is used to create a home directory for the user and also asks for user information like full name, email address, etc. While the "useradd" command can be considered as a quick way to create a user and it also does not prompt for any user information.
+
+2. Then, what is the use of the "useradd" command, as the " add user " command seems to be more powerful and interactive?
+
+Ans: The "useradd" command will be very useful when you are writing scripts because here we don't want the terminal to ask input from the user. This command just creates the user, which is the desired result while writing scripts.
+
+3. Can you restore the password of a Linux user if you forget the password, in case it is not stored?
+
+Ans: No, we cannot restore the password of the Linux user; thus, it is very essential to store them in files. However, only the encrypted password can be obtained from " /etc/shadow " file.
